@@ -9,6 +9,6 @@ const partySchema = new Schema({
     posts: [{ type:mongoose.Types.ObjectId, ref: 'Post'}]
 })
 
-const   Party = mongoose.model('City', partySchema);
+const Party = mongoose.model('Party', partySchema);
 
 module.exports = Party;
